@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#545ba8"
+    tools:context=".CallingActivity"
+	tools:layout_editor_absoluteY="25dp">
+
+
+      <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="213dp"
+        android:orientation="vertical"
+		android:background="#5D9FBE"
+        app:layout_constraintBottom_toTopOf="@+id/reject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text=" HEAL INCOMING CALL"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+         <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="17dp"
+            android:text="Ramaswamy"
+            android:textColor="#ffffff"
+            android:textSize="56sp" />
+
+    </LinearLayout>
+	
+    <ImageView
+        android:id="@+id/accept"
+        android:layout_width="96dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginStart="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/reject"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/accept"
+        tools:layout_marginStart="50dp" />
+
+    <ImageView
+        android:id="@+id/reject"
+        android:layout_width="157dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/accept"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/reject" />
+
+
+
+</android.support.constraint.ConstraintLayout>
