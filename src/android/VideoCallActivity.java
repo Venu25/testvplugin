@@ -25,7 +25,7 @@ public class VideoCallActivity extends AppCompatActivity implements  Session.Ses
 
     private FrameLayout mPublisherViewContainer;
     private FrameLayout mSubscriberViewContainer;
-    private static String API_KEY = "46199472";
+    private static String API_KEY = "46730182";
     private static String sessionId = "";
     private static String token = "";
     private static final String LOG_TAG = VideoCallActivity.class.getSimpleName();
