@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.content.Intent;
-import com.heka.ios.R;
+import com.heka.heal.R;
 
 import com.opentok.android.Session;
 import com.opentok.android.Stream;
