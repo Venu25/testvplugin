@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
-import com.heka.heal.R;
+import com.heka.android.R;
 
 import org.json.JSONObject;
 import java.security.cert.CertificateException;
